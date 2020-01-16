@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2474622-4005-4204-B16A-0FF903087445}</ProjectGuid>
+    <ProjectGuid>{39B08BB9-7288-4F4A-962C-6515CB623625}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PracticalExamplesProjects</RootNamespace>
-    <AssemblyName>PracticalExamplesProjects</AssemblyName>
+    <RootNamespace>EventHandler</RootNamespace>
+    <AssemblyName>EventHandler</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
