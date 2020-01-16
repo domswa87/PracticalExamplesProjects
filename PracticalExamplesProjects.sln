@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedArrayUniqueValues", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTests", "Projects\NUnitTests\NUnitTests.csproj", "{1862297F-D32D-4673-A8D1-6A4CB6399B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "Projects\LINQ\LINQ.csproj", "{DBB9125A-3C63-44DF-9A67-B47E09009AF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1862297F-D32D-4673-A8D1-6A4CB6399B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1862297F-D32D-4673-A8D1-6A4CB6399B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1862297F-D32D-4673-A8D1-6A4CB6399B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB9125A-3C63-44DF-9A67-B47E09009AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB9125A-3C63-44DF-9A67-B47E09009AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB9125A-3C63-44DF-9A67-B47E09009AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB9125A-3C63-44DF-9A67-B47E09009AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
