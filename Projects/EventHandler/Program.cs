@@ -26,7 +26,7 @@ namespace EventHandlerNameSpace
             ObjectSenderClass obj = new ObjectSenderClass() { text = "hello EventHandler" };
             EventArgs eventArgs = new EventArgs();
 
-            // Add 1,,2,3 
+            // Add 1,2,3 
             EventHandlerDS += Person1;
             EventHandlerDS += Person2;
             EventHandlerDS += Person3;
