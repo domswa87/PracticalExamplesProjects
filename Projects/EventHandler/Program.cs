@@ -12,7 +12,6 @@ namespace EventHandlerNameSpace
         {
             NotStaticClass obj = new NotStaticClass();
             obj.MainMetodaDS();
-
             Console.ReadKey();
         }
     }
@@ -27,35 +26,30 @@ namespace EventHandlerNameSpace
             EventArgs eventArgs = new EventArgs();
 
             // Add 1,2,3 
-            EventHandlerDS += Person1;
-            EventHandlerDS += Person2;
-            EventHandlerDS += Person3;
+            EventHandlerDS += Metoda1;
+            EventHandlerDS += Metoda2;
+            EventHandlerDS += Metoda3;
 
             // Substract 2
-            EventHandlerDS -= Person2;
+            EventHandlerDS -= Metoda2;
 
             EventHandlerDS.Invoke(obj, eventArgs);
         }
 
-        private void Person3(object sender, EventArgs e)
+        private void Metoda1(object sender, EventArgs e)
         {
-            ObjectSenderClass obj = (ObjectSenderClass)sender;
-            Console.WriteLine("Person3 : " + obj.text);
+            ObjectSenderClass obj = (ObjectSenderClass)sender;     Console.WriteLine("Metoda1 : " + obj.text);
         }
-
-        private void Person2(object sender, EventArgs e)
+        private void Metoda2(object sender, EventArgs e)
         {
-            ObjectSenderClass obj = (ObjectSenderClass)sender;
-            Console.WriteLine("Person2 : " + obj.text);
+            ObjectSenderClass obj = (ObjectSenderClass)sender;      Console.WriteLine("Metoda2 : " + obj.text);
         }
-
-        private void Person1(object sender, EventArgs e)
+        private void Metoda3(object sender, EventArgs e)
         {
-            ObjectSenderClass obj = (ObjectSenderClass)sender;
-            Console.WriteLine("Person1 : " + obj.text);
+            ObjectSenderClass obj = (ObjectSenderClass)sender;       Console.WriteLine("Metoda3 : " + obj.text);
         }
     }
-
+    
     public class ObjectSenderClass
     {
         public string text { get; set; }

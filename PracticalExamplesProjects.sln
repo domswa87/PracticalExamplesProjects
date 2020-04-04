@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Projects\Event\Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandler", "Projects\EventHandler\EventHandler.csproj", "{39B08BB9-7288-4F4A-962C-6515CB623625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedArrayUniqueValues", "Projects\MergedArrayUniqueValues\MergedArrayUniqueValues.csproj", "{EF8EB2E5-FB42-40D3-A157-17DA86A9837E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteDuplicates", "Projects\MergedArrayUniqueValues\DeleteDuplicates.csproj", "{EF8EB2E5-FB42-40D3-A157-17DA86A9837E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "Projects\LINQ\LINQ.csproj", "{DBB9125A-3C63-44DF-9A67-B47E09009AF2}"
 EndProject

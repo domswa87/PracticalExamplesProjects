@@ -12,9 +12,9 @@ namespace Delegates
 
         static void Main(string[] args)
         {
-            DelegatDS delegatDS1 = new DelegatDS(Person1);
-            DelegatDS delegatDS2 = new DelegatDS(Person2);
-            DelegatDS delegatDS3 = new DelegatDS(Person3);
+            DelegatDS delegatDS1 = new DelegatDS(Metoda1);
+            DelegatDS delegatDS2 = new DelegatDS(Metoda2);
+            DelegatDS delegatDS3 = new DelegatDS(Metoda3);
 
             delegatDS1.Invoke("hello");
             delegatDS2.Invoke("hello");
@@ -23,19 +23,19 @@ namespace Delegates
             Console.ReadKey();
         }
 
-        static void Person1(string s)
+        static void Metoda1(string s)
         {
-            Console.WriteLine("Person1 : " + s);
+            Console.WriteLine("Metoda1 : " + s);
         }
 
-        static void Person2(string s)
+        static void Metoda2(string s)
         {
-            Console.WriteLine("Person2 : " + s);
+            Console.WriteLine("Metoda2 : " + s);
         }
 
-        static void Person3(string s)
+        static void Metoda3(string s)
         {
-            Console.WriteLine("Person3 : " + s);
+            Console.WriteLine("Metoda3 : " + s);
         }
     }
 }
