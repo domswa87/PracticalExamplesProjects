@@ -17,9 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceHidingOverriding
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerator", "Empty\Enumerator.csproj", "{1F451154-4AB8-4FAC-93D2-4B3D69CBB766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield", "Yeld\Yield.csproj", "{41D51CAE-4486-44ED-BDF3-4607169D6E6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_MyClass", "Yeld\Yield_MyClass.csproj", "{41D51CAE-4486-44ED-BDF3-4607169D6E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDS", "TestDS\TestDS.csproj", "{A1ABE40F-BD8B-4CCB-AF76-5A27D5376363}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_Intro", "TestDS\Yield_Intro.csproj", "{A1ABE40F-BD8B-4CCB-AF76-5A27D5376363}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

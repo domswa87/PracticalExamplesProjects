@@ -13,6 +13,7 @@ namespace Yeld
         public static void Main()
         {
             YieldDS ds = new YieldDS(numbers);
+            //jest to to samo co ForEach
             IEnumerator<int> enumerator = ds.GetEnumerator();
             while (enumerator.MoveNext())
             {

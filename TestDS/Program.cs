@@ -9,18 +9,24 @@ namespace TestDS
         static int[] numbers = { 1, 2, 3, 4, 5, 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 };
         static void Main(string[] args)
         {
-            foreach (var item in GetNumbers(10))
+            foreach (var item in GetEvenNumbers())
             {
                 Console.WriteLine(item);
             }
             Console.ReadKey();
         }
 
-        static IEnumerable<int> GetNumbers(int count)
+
+        // Kompilator zamienia tą metodę na klasę
+        static IEnumerable<int> GetEvenNumbers()
         {
-            Console.WriteLine("start");
-                yield return 9;
-            Console.WriteLine("end!!");
+            foreach (int n in numbers)
+            {
+                if (n % 2 ==0)
+                {
+                    yield return n;
+                }
+            }
         }
     }
 }
