@@ -3,22 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Delegates.Program;
 
 namespace Delegates
 {
-    class Program
+    public class Program
     {
+        // 1 Tworze Delegata
         public delegate void DelegatDS(string s);
 
         static void Main(string[] args)
         {
+            // 2 Tworze obiekt Delegata i przypisuje metode jaka ma wywolac
             DelegatDS delegatDS1 = new DelegatDS(Metoda1);
-            DelegatDS delegatDS2 = new DelegatDS(Metoda2);
-            DelegatDS delegatDS3 = new DelegatDS(Metoda3);
 
-            delegatDS1.Invoke("hello");
-            delegatDS2.Invoke("hello");
-            delegatDS3.Invoke("hello");
+            // 3 wysylam delegata
+            OtherClass o = new OtherClass(delegatDS1);
+            o.Start();
+
 
             Console.ReadKey();
         }
@@ -28,14 +30,21 @@ namespace Delegates
             Console.WriteLine("Metoda1 : " + s);
         }
 
-        static void Metoda2(string s)
+    }
+
+    public class OtherClass
+    {
+        public DelegatDS delegat { get; set; }
+        public OtherClass(DelegatDS delegatDS1)
         {
-            Console.WriteLine("Metoda2 : " + s);
+            delegat = delegatDS1;
+        }
+        public void Start()
+        {
+            delegat.Invoke("info od delegata wyslanego do innej klasy");
         }
 
-        static void Metoda3(string s)
-        {
-            Console.WriteLine("Metoda3 : " + s);
-        }
     }
+
+
 }

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_MyClass", "Yeld\Yield
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_Intro", "TestDS\Yield_Intro.csproj", "{A1ABE40F-BD8B-4CCB-AF76-5A27D5376363}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesLambdaFuncAction", "DelegatLambda\DelegatesLambdaFuncAction.csproj", "{5FDFF9FE-EA8A-479F-96D0-26326C91042F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A1ABE40F-BD8B-4CCB-AF76-5A27D5376363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1ABE40F-BD8B-4CCB-AF76-5A27D5376363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1ABE40F-BD8B-4CCB-AF76-5A27D5376363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDFF9FE-EA8A-479F-96D0-26326C91042F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDFF9FE-EA8A-479F-96D0-26326C91042F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDFF9FE-EA8A-479F-96D0-26326C91042F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDFF9FE-EA8A-479F-96D0-26326C91042F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
